@@ -56,7 +56,6 @@ def generate_token(app_context=None):
     except Exception:
         return ''
 
-token = generate_token()
 
 app_context = {
     'isrStart': time.time() * 1000 - 100, # performance.now()
